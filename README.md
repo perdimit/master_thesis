@@ -2,7 +2,7 @@
 Per-Dimitri's master thesis.
 
 **Models** <br>
-*Training*
+*Training* <br>
 The Models folder includes main_training.py.
 Here one can run a training run or a hyperparameter tuning run.
 - Load the data set, drop features not needed.
@@ -11,7 +11,7 @@ Here one can run a training run or a hyperparameter tuning run.
 params = {'epochs': epochs, 'learning_rate': learning_rate}
 - Run model.multiple_runs(params). This will run over all permutations of the hyperparameters.
 
-*Testing*
+*Testing* <br>
 The Models folder includes main_testing.py.
 Here one can load parameters from a training run and run a test run. Where more data is dedicated to training. Test data must be passed in.
 
