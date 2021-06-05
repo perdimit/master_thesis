@@ -1,7 +1,7 @@
 # master_thesis
 Per-Dimitri's master thesis.
 
-**Models**
+**Models** <br>
 *Training*
 The Models folder includes main_training.py.
 Here one can run a training run or a hyperparameter tuning run.
