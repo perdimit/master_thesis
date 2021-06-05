@@ -15,8 +15,8 @@ params = {'epochs': epochs, 'learning_rate': learning_rate}
 The Models folder includes main_testing.py.
 Here one can load parameters from a training run and run a test run. Where more data is dedicated to training. Test data must be passed in.
 
-**Visualization**
+**Visualization** <br>
 This folder includes various plotting scripts.
 
-**Data Harvest**
-Creates a file in pandas-style with feature and target columns from a folder of SLHA files.
+**Data Harvest** <br>
+Creates a csv file in pandas-style with feature and target columns from a folder of SLHA files.
