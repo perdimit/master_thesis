@@ -1,0 +1,2 @@
+	epochs	patience	layers	batch_size	activation	use_flipout	sample_size	model_val_loss(scaled)*	train_negloglik	es_val_negloglik	model_val_negloglik	train_mse	es_val_mse	model_val_mse	train_r2	es_val_r2	model_val_r2	stopped_epoch	best_epoch
+1	20	200	5-5-5-1	32	mish	False	200	-2.3388	7.3505	7.3054	7.2451	226467297066.2046	28693237844.3079	3984625.1163	-0.0003	-0.001	-0.0047	0	19

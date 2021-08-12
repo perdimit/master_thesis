@@ -1,0 +1,3 @@
+	epochs	patience	layers	batch_size	activation	sample_size	learning_rate	annealing_type	kappa	prior	prior_init	scale	learning_rate_nn	pmf	pmf_init	delta	train_elbo	train_loss	kl_loss	stopped_epoch	best_epoch	es_val_elbo	model_val_elbo*	es_val_loss	model_val_loss	model_val_negloglik	kl_loss
+1	40000	3000	8-20-20-20-20-20-1	32	swish	2000	0.0001	exp	0.021	Gaussian	nn_constant	0.00015	0.001	Gaussian	nn_complex	1e-06	-4.2356	84.4897	0.33307945281879014	6266	3266	-5.1997	-5.1289	-4.9312	-4.8604	-5.1935	0.33307945281879014
+2	40000	3000	8-20-20-20-20-20-1	32	swish	2000	0.0001	exp	0.021	Laplace	nn_constant	0.00015	0.001	Gaussian	nn_complex	1e-06	-3.402	118.9684	2.660434645698286	5599	2599	-4.4944	-4.0692	-2.3496	-1.9244	-4.5848	2.660434645698286
